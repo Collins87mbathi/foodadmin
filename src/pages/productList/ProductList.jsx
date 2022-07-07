@@ -76,6 +76,7 @@ export default function ProductList() {
         getRowId={(row) => row._id}
         pageSize={8}
         rowsPerPageOptions={[6,12,20,50]}
+        emptyRowsWhenPaging={false}
                // make initial page size
         checkboxSelection
       />
