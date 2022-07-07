@@ -3,8 +3,8 @@ import axios from 'axios'
 import {BASE_URL} from '../utils/Constant'
 
 function CategoriesAPI() {
-    const [categories, setCategories] = useState([])
-    const [callback, setCallback] = useState(false)
+    const [categories, setCategories] = useState([]);
+    const [callback, setCallback] = useState(false);
 
     useEffect(() =>{
         const getCategories = async () =>{
