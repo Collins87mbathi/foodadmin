@@ -27,7 +27,7 @@ export default function ProductList() {
   };
 
   const columns = [
-    { field: "id", headerName: "ID", width: 90 },
+    { field: "_id", headerName: "ID", width: 90 },
     {
       field: "products",
       headerName: "Products",
@@ -74,7 +74,7 @@ export default function ProductList() {
         disableSelectionOnClick
         columns={columns}
         getRowId={(row) => row._id}
-        pageSize={20}
+        pageSize={8}
         // rowsPerPageOptions={[6,12,20,50]}
         // emptyRowsWhenPaging={false}
                // make initial page size
